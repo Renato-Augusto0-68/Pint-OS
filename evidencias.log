@@ -52261,4 +52261,331 @@ Resolving deltas:   0% (0/119)Resolving deltas:   1% (2/119)Resolving deltas: 
 [?2004lOn branch main
 Your branch is up to date with 'origin/main'.
 
-Changes not staged f
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   evidencias.log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mpintos/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ cd Pin[K[K[Kpintos
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos[00m$ [7mrm -rf pintos/.git[27mrm -rf pintos/.git
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos[00m$ [7mgit status[27mgit status
+[?2004lOn branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos[00m$ cd ..
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ cd ..git statusrm -rf pintos/.git
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ rm -rf pintos/.gitcd ..[Kgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   evidencias.log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mpintos/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [7mcd $PINTOS/src/utils && make[27mcd $PINTOS/src/utils && make
+[?2004lgcc -Wall -W   -c -o setitimer-helper.o setitimer-helper.c
+gcc   setitimer-helper.o -lm  -o setitimer-helper
+gcc -Wall -W   -c -o squish-pty.o squish-pty.c
+gcc   squish-pty.o -lm  -o squish-pty
+gcc -Wall -W   -c -o squish-unix.o squish-unix.c
+gcc   squish-unix.o -lm  -o squish-unix
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/utils[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/utils[00m$ [7mcp backtrace pintos Pintos.pm pintos-gdb pintos-set-cmdline pintos-mkdisk \[27m
+[7msetitimer-helper squish-pty squish-unix $SWD/x86_64/bin[27m[A]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/utils[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/utils[00m$ cp backtrace pintos Pintos.pm pintos-gdb pintos-set-cmdline pintos-mkdisk \
+setitimer-helper squish-pty squish-unix $SWD/x86_64/bin[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csetitimer-helper squish[22P[A]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/utils[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/utils[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/utils[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/utils[00m$ [7mmkdir $SWD/x86_64/misc[27mmkdir $SWD/x86_64/misc
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/utils[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/utils[00m$ [7mcp ../misc/gdb-macros $SWD/x86_64/misc[27mcp ../misc/gdb-macros $SWD/x86_64/misc
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/utils[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/utils[00m$ [K]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/utils[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/utils[00m$ [7mcd $PINTOS/src/threads[27mcd $PINTOS/src/threads
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads[00m$ make
+[?2004lmkdir -p build/devices
+mkdir -p build/lib
+mkdir -p build/lib/kernel
+mkdir -p build/lib/user
+mkdir -p build/tests/threads
+mkdir -p build/threads
+cp ../Makefile.build build/Makefile
+cd build && make all
+make[1]: Entering directory '/home/devcontainers/dev/rass/Pint-OS/pintos/src/threads/build'
+i386-elf-gcc -E -nostdinc -I../.. -I../../lib -I../../lib/kernel -P ../../threads/kernel.lds.S > threads/kernel.lds.s
+i386-elf-gcc -c ../../threads/start.S -o threads/start.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib -I../../lib/kernel  -MMD -MF threads/start.d
+i386-elf-gcc -c ../../threads/init.c -o threads/init.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/init.d
+i386-elf-gcc -c ../../threads/thread.c -o threads/thread.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/thread.d
+i386-elf-gcc -c ../../threads/switch.S -o threads/switch.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib -I../../lib/kernel  -MMD -MF threads/switch.d
+i386-elf-gcc -c ../../threads/interrupt.c -o threads/interrupt.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/interrupt.d
+i386-elf-gcc -c ../../threads/intr-stubs.S -o threads/intr-stubs.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib -I../../lib/kernel  -MMD -MF threads/intr-stubs.d
+i386-elf-gcc -c ../../threads/synch.c -o threads/synch.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/synch.d
+i386-elf-gcc -c ../../threads/palloc.c -o threads/palloc.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/palloc.d
+i386-elf-gcc -c ../../threads/malloc.c -o threads/malloc.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/malloc.d
+i386-elf-gcc -c ../../devices/pit.c -o devices/pit.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/pit.d
+i386-elf-gcc -c ../../devices/timer.c -o devices/timer.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/timer.d
+i386-elf-gcc -c ../../devices/kbd.c -o devices/kbd.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/kbd.d
+i386-elf-gcc -c ../../devices/vga.c -o devices/vga.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/vga.d
+i386-elf-gcc -c ../../devices/serial.c -o devices/serial.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/serial.d
+i386-elf-gcc -c ../../devices/block.c -o devices/block.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/block.d
+i386-elf-gcc -c ../../devices/partition.c -o devices/partition.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/partition.d
+i386-elf-gcc -c ../../devices/ide.c -o devices/ide.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/ide.d
+[01m[K../../devices/ide.c:[m[K In function '[01m[Kide_init[m[K':
+[01m[K../../devices/ide.c:135:25:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%c[m[K' expects argument of type '[01m[Kint[m[K', but argument 4 has type '[01m[Klong unsigned int[m[K' [[01;35m[K-Wformat=[m[K]
+                     "hd%[01;35m[Kc[m[K", 'a' + chan_no * 2 + dev_no);
+                         [01;35m[K^[m[K
+i386-elf-gcc -c ../../devices/input.c -o devices/input.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/input.d
+i386-elf-gcc -c ../../devices/intq.c -o devices/intq.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/intq.d
+i386-elf-gcc -c ../../devices/rtc.c -o devices/rtc.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/rtc.d
+i386-elf-gcc -c ../../devices/shutdown.c -o devices/shutdown.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/shutdown.d
+i386-elf-gcc -c ../../devices/speaker.c -o devices/speaker.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/speaker.d
+i386-elf-gcc -c ../../lib/debug.c -o lib/debug.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/debug.d
+[01m[K../../lib/debug.c:[m[K In function '[01m[Kdebug_backtrace[m[K':
+[01m[K../../lib/debug.c:19:14:[m[K [01;35m[Kwarning: [m[Kcalling '[01m[K__builtin_frame_address[m[K' with a nonzero argument is unsafe [[01;35m[K-Wframe-address[m[K]
+   for ([01;35m[Kframe = __builtin_frame_address (1)[m[K;
+        [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+i386-elf-gcc -c ../../lib/random.c -o lib/random.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/random.d
+i386-elf-gcc -c ../../lib/stdio.c -o lib/stdio.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/stdio.d
+i386-elf-gcc -c ../../lib/stdlib.c -o lib/stdlib.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/stdlib.d
+i386-elf-gcc -c ../../lib/string.c -o lib/string.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/string.d
+In file included from [01m[K../../lib/string.c:2:0[m[K:
+[01m[K../../lib/string.c:[m[K In function '[01m[Kstrchr[m[K':
+[01m[K../../lib/debug.h:32:12:[m[K [01;35m[Kwarning: [m[Knonnull argument '[01m[Kstring[m[K' compared to NULL [[01;35m[K-Wnonnull-compare[m[K]
+         if [01;35m[K([m[KCONDITION) { } else {                               \
+            [01;35m[K^[m[K
+[01m[K../../lib/string.c:117:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KASSERT[m[K'
+   [01;36m[KASSERT[m[K (string != NULL);
+   [01;36m[K^~~~~~[m[K
+[01m[K../../lib/string.c:[m[K In function '[01m[Kstrlen[m[K':
+[01m[K../../lib/debug.h:32:12:[m[K [01;35m[Kwarning: [m[Knonnull argument '[01m[Kstring[m[K' compared to NULL [[01;35m[K-Wnonnull-compare[m[K]
+         if [01;35m[K([m[KCONDITION) { } else {                               \
+            [01;35m[K^[m[K
+[01m[K../../lib/string.c:297:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KASSERT[m[K'
+   [01;36m[KASSERT[m[K (string != NULL);
+   [01;36m[K^~~~~~[m[K
+i386-elf-gcc -c ../../lib/arithmetic.c -o lib/arithmetic.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/arithmetic.d
+i386-elf-gcc -c ../../lib/ustar.c -o lib/ustar.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/ustar.d
+i386-elf-gcc -c ../../lib/kernel/debug.c -o lib/kernel/debug.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/debug.d
+[01m[K../../lib/kernel/debug.c:[m[K In function '[01m[Kprint_stacktrace[m[K':
+[01m[K../../lib/kernel/debug.c:82:13:[m[K [01;35m[Kwarning: [m[Kcalling '[01m[K__builtin_frame_address[m[K' with a nonzero argument is unsafe [[01;35m[K-Wframe-address[m[K]
+       [01;35m[Kframe = __builtin_frame_address (1)[m[K;
+       [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+i386-elf-gcc -c ../../lib/kernel/list.c -o lib/kernel/list.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/list.d
+i386-elf-gcc -c ../../lib/kernel/bitmap.c -o lib/kernel/bitmap.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/bitmap.d
+i386-elf-gcc -c ../../lib/kernel/hash.c -o lib/kernel/hash.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/hash.d
+i386-elf-gcc -c ../../lib/kernel/console.c -o lib/kernel/console.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/console.d
+i386-elf-gcc -c ../../tests/threads/tests.c -o tests/threads/tests.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/tests.d
+i386-elf-gcc -c ../../tests/threads/alarm-wait.c -o tests/threads/alarm-wait.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-wait.d
+i386-elf-gcc -c ../../tests/threads/alarm-simultaneous.c -o tests/threads/alarm-simultaneous.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-simultaneous.d
+i386-elf-gcc -c ../../tests/threads/alarm-priority.c -o tests/threads/alarm-priority.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-priority.d
+i386-elf-gcc -c ../../tests/threads/alarm-zero.c -o tests/threads/alarm-zero.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-zero.d
+i386-elf-gcc -c ../../tests/threads/alarm-negative.c -o tests/threads/alarm-negative.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-negative.d
+i386-elf-gcc -c ../../tests/threads/priority-change.c -o tests/threads/priority-change.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-change.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-one.c -o tests/threads/priority-donate-one.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-one.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-multiple.c -o tests/threads/priority-donate-multiple.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-multiple.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-multiple2.c -o tests/threads/priority-donate-multiple2.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-multiple2.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-nest.c -o tests/threads/priority-donate-nest.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-nest.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-sema.c -o tests/threads/priority-donate-sema.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-sema.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-lower.c -o tests/threads/priority-donate-lower.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-lower.d
+i386-elf-gcc -c ../../tests/threads/priority-fifo.c -o tests/threads/priority-fifo.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-fifo.d
+i386-elf-gcc -c ../../tests/threads/priority-preempt.c -o tests/threads/priority-preempt.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-preempt.d
+i386-elf-gcc -c ../../tests/threads/priority-sema.c -o tests/threads/priority-sema.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-sema.d
+i386-elf-gcc -c ../../tests/threads/priority-condvar.c -o tests/threads/priority-condvar.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-condvar.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-chain.c -o tests/threads/priority-donate-chain.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-chain.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-load-1.c -o tests/threads/mlfqs-load-1.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-load-1.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-load-60.c -o tests/threads/mlfqs-load-60.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-load-60.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-load-avg.c -o tests/threads/mlfqs-load-avg.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-load-avg.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-recent-1.c -o tests/threads/mlfqs-recent-1.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-recent-1.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-fair.c -o tests/threads/mlfqs-fair.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-fair.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-block.c -o tests/threads/mlfqs-block.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-block.d
+i386-elf-ld -melf_i386 -T threads/kernel.lds.s -o kernel.o threads/start.o threads/init.o threads/thread.o threads/switch.o threads/interrupt.o threads/intr-stubs.o threads/synch.o threads/palloc.o threads/malloc.o devices/pit.o devices/timer.o devices/kbd.o devices/vga.o devices/serial.o devices/block.o devices/partition.o devices/ide.o devices/input.o devices/intq.o devices/rtc.o devices/shutdown.o devices/speaker.o lib/debug.o lib/random.o lib/stdio.o lib/stdlib.o lib/string.o lib/arithmetic.o lib/ustar.o lib/kernel/debug.o lib/kernel/list.o lib/kernel/bitmap.o lib/kernel/hash.o lib/kernel/console.o tests/threads/tests.o tests/threads/alarm-wait.o tests/threads/alarm-simultaneous.o tests/threads/alarm-priority.o tests/threads/alarm-zero.o tests/threads/alarm-negative.o tests/threads/priority-change.o tests/threads/priority-donate-one.o tests/threads/priority-donate-multiple.o tests/threads/priority-donate-multiple2.o tests/threads/priority-donate-nest.o tests/threads/priority-donate-sema.o tests/threads/priority-donate-lower.o tests/threads/priority-fifo.o tests/threads/priority-preempt.o tests/threads/priority-sema.o tests/threads/priority-condvar.o tests/threads/priority-donate-chain.o tests/threads/mlfqs-load-1.o tests/threads/mlfqs-load-60.o tests/threads/mlfqs-load-avg.o tests/threads/mlfqs-recent-1.o tests/threads/mlfqs-fair.o tests/threads/mlfqs-block.o
+i386-elf-objdump -S kernel.o > kernel.asm
+i386-elf-nm -n kernel.o > kernel.sym
+i386-elf-objcopy -R .note -R .comment -S kernel.o kernel.bin
+i386-elf-gcc -c ../../threads/loader.S -o threads/loader.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib 
+i386-elf-ld -melf_i386 -N -e 0 -Ttext 0x7c00 -o loader.out threads/loader.o
+i386-elf-objdump -S loader.out > loader.asm
+i386-elf-objcopy -S -O binary -j .text loader.out loader.bin
+rm loader.out
+make[1]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/pintos/src/threads/build'
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads[00m$ cd [7m$SWD/x86_64/bin/pintos[27m$SWD/x86_64/bin/pintos[K[K[K[K[K[K[K
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/x86_64/bin[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/x86_64/bin[00m$ cd $SWD/x86_64/binmake[Kcd $PINTOS/src/threadsp ../misc/gdb-macros $SWD/x86_64/misc[16Pd $PINTOS/src/threads[K[K[K[K[K[K[Kbuild
+[?2004lbash: cd: /home/devcontainers/dev/rass/Pint-OS/pintos/src/build: No such file or directory
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/x86_64/bin[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/x86_64/bin[00m$ [7mcd $PINTOS/src/threads/build[27mcd $PINTOS/src/threads/build
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ make
+[?2004lmake: Nothing to be done for 'all'.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ make clean
+[?2004lrm -f   
+rm -f lib/debug.d lib/random.d lib/stdio.d lib/stdlib.d lib/string.d lib/arithmetic.d lib/ustar.d lib/user/debug.d lib/user/syscall.d lib/user/console.d lib/debug.o lib/random.o lib/stdio.o lib/stdlib.o lib/string.o lib/arithmetic.o lib/ustar.o lib/user/debug.o lib/user/syscall.o lib/user/console.o lib/user/entry.[do] libc.a 
+rm -f tests/threads/alarm-single.output tests/threads/alarm-multiple.output tests/threads/alarm-simultaneous.output tests/threads/alarm-priority.output tests/threads/alarm-zero.output tests/threads/alarm-negative.output tests/threads/priority-change.output tests/threads/priority-donate-one.output tests/threads/priority-donate-multiple.output tests/threads/priority-donate-multiple2.output tests/threads/priority-donate-nest.output tests/threads/priority-donate-sema.output tests/threads/priority-donate-lower.output tests/threads/priority-fifo.output tests/threads/priority-preempt.output tests/threads/priority-sema.output tests/threads/priority-condvar.output tests/threads/priority-donate-chain.output tests/threads/mlfqs-load-1.output tests/threads/mlfqs-load-60.output tests/threads/mlfqs-load-avg.output tests/threads/mlfqs-recent-1.output tests/threads/mlfqs-fair-2.output tests/threads/mlfqs-fair-20.output tests/threads/mlfqs-nice-2.output tests/threads/mlfqs-nice-10.output tests/threads/mlfqs-block.output tests/threads/alarm-single.errors tests/threads/alarm-multiple.errors tests/threads/alarm-simultaneous.errors tests/threads/alarm-priority.errors tests/threads/alarm-zero.errors tests/threads/alarm-negative.errors tests/threads/priority-change.errors tests/threads/priority-donate-one.errors tests/threads/priority-donate-multiple.errors tests/threads/priority-donate-multiple2.errors tests/threads/priority-donate-nest.errors tests/threads/priority-donate-sema.errors tests/threads/priority-donate-lower.errors tests/threads/priority-fifo.errors tests/threads/priority-preempt.errors tests/threads/priority-sema.errors tests/threads/priority-condvar.errors tests/threads/priority-donate-chain.errors tests/threads/mlfqs-load-1.errors tests/threads/mlfqs-load-60.errors tests/threads/mlfqs-load-avg.errors tests/threads/mlfqs-recent-1.errors tests/threads/mlfqs-fair-2.errors tests/threads/mlfqs-fair-20.errors tests/threads/mlfqs-nice-2.errors tests/threads/mlfqs-nice-10.errors tests/threads/mlfqs-block.errors tests/threads/alarm-single.result tests/threads/alarm-multiple.result tests/threads/alarm-simultaneous.result tests/threads/alarm-priority.result tests/threads/alarm-zero.result tests/threads/alarm-negative.result tests/threads/priority-change.result tests/threads/priority-donate-one.result tests/threads/priority-donate-multiple.result tests/threads/priority-donate-multiple2.result tests/threads/priority-donate-nest.result tests/threads/priority-donate-sema.result tests/threads/priority-donate-lower.result tests/threads/priority-fifo.result tests/threads/priority-preempt.result tests/threads/priority-sema.result tests/threads/priority-condvar.result tests/threads/priority-donate-chain.result tests/threads/mlfqs-load-1.result tests/threads/mlfqs-load-60.result tests/threads/mlfqs-load-avg.result tests/threads/mlfqs-recent-1.result tests/threads/mlfqs-fair-2.result tests/threads/mlfqs-fair-20.result tests/threads/mlfqs-nice-2.result tests/threads/mlfqs-nice-10.result tests/threads/mlfqs-block.result 
+rm -f threads/start.o threads/init.o threads/thread.o threads/switch.o threads/interrupt.o threads/intr-stubs.o threads/synch.o threads/palloc.o threads/malloc.o devices/pit.o devices/timer.o devices/kbd.o devices/vga.o devices/serial.o devices/block.o devices/partition.o devices/ide.o devices/input.o devices/intq.o devices/rtc.o devices/shutdown.o devices/speaker.o lib/debug.o lib/random.o lib/stdio.o lib/stdlib.o lib/string.o lib/arithmetic.o lib/ustar.o lib/kernel/debug.o lib/kernel/list.o lib/kernel/bitmap.o lib/kernel/hash.o lib/kernel/console.o tests/threads/tests.o tests/threads/alarm-wait.o tests/threads/alarm-simultaneous.o tests/threads/alarm-priority.o tests/threads/alarm-zero.o tests/threads/alarm-negative.o tests/threads/priority-change.o tests/threads/priority-donate-one.o tests/threads/priority-donate-multiple.o tests/threads/priority-donate-multiple2.o tests/threads/priority-donate-nest.o tests/threads/priority-donate-sema.o tests/threads/priority-donate-lower.o tests/threads/priority-fifo.o tests/threads/priority-preempt.o tests/threads/priority-sema.o tests/threads/priority-condvar.o tests/threads/priority-donate-chain.o tests/threads/mlfqs-load-1.o tests/threads/mlfqs-load-60.o tests/threads/mlfqs-load-avg.o tests/threads/mlfqs-recent-1.o tests/threads/mlfqs-fair.o tests/threads/mlfqs-block.o threads/start.d threads/init.d threads/thread.d threads/switch.d threads/interrupt.d threads/intr-stubs.d threads/synch.d threads/palloc.d threads/malloc.d devices/pit.d devices/timer.d devices/kbd.d devices/vga.d devices/serial.d devices/block.d devices/partition.d devices/ide.d devices/input.d devices/intq.d devices/rtc.d devices/shutdown.d devices/speaker.d lib/debug.d lib/random.d lib/stdio.d lib/stdlib.d lib/string.d lib/arithmetic.d lib/ustar.d lib/kernel/debug.d lib/kernel/list.d lib/kernel/bitmap.d lib/kernel/hash.d lib/kernel/console.d tests/threads/tests.d tests/threads/alarm-wait.d tests/threads/alarm-simultaneous.d tests/threads/alarm-priority.d tests/threads/alarm-zero.d tests/threads/alarm-negative.d tests/threads/priority-change.d tests/threads/priority-donate-one.d tests/threads/priority-donate-multiple.d tests/threads/priority-donate-multiple2.d tests/threads/priority-donate-nest.d tests/threads/priority-donate-sema.d tests/threads/priority-donate-lower.d tests/threads/priority-fifo.d tests/threads/priority-preempt.d tests/threads/priority-sema.d tests/threads/priority-condvar.d tests/threads/priority-donate-chain.d tests/threads/mlfqs-load-1.d tests/threads/mlfqs-load-60.d tests/threads/mlfqs-load-avg.d tests/threads/mlfqs-recent-1.d tests/threads/mlfqs-fair.d tests/threads/mlfqs-block.d 
+rm -f threads/loader.o threads/kernel.lds.s threads/loader.d
+rm -f kernel.bin.tmp
+rm -f kernel.o kernel.lds.s
+rm -f kernel.bin loader.bin
+rm -f loader.asm kernel.asm kernel.sym
+rm -f bochsout.txt bochsrc.txt
+rm -f results grade
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ make
+[?2004li386-elf-gcc -E -nostdinc -I../.. -I../../lib -I../../lib/kernel -P ../../threads/kernel.lds.S > threads/kernel.lds.s
+i386-elf-gcc -c ../../threads/start.S -o threads/start.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib -I../../lib/kernel  -MMD -MF threads/start.d
+i386-elf-gcc -c ../../threads/init.c -o threads/init.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/init.d
+i386-elf-gcc -c ../../threads/thread.c -o threads/thread.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/thread.d
+i386-elf-gcc -c ../../threads/switch.S -o threads/switch.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib -I../../lib/kernel  -MMD -MF threads/switch.d
+i386-elf-gcc -c ../../threads/interrupt.c -o threads/interrupt.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/interrupt.d
+i386-elf-gcc -c ../../threads/intr-stubs.S -o threads/intr-stubs.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib -I../../lib/kernel  -MMD -MF threads/intr-stubs.d
+i386-elf-gcc -c ../../threads/synch.c -o threads/synch.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/synch.d
+i386-elf-gcc -c ../../threads/palloc.c -o threads/palloc.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/palloc.d
+i386-elf-gcc -c ../../threads/malloc.c -o threads/malloc.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF threads/malloc.d
+i386-elf-gcc -c ../../devices/pit.c -o devices/pit.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/pit.d
+i386-elf-gcc -c ../../devices/timer.c -o devices/timer.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/timer.d
+i386-elf-gcc -c ../../devices/kbd.c -o devices/kbd.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/kbd.d
+i386-elf-gcc -c ../../devices/vga.c -o devices/vga.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/vga.d
+i386-elf-gcc -c ../../devices/serial.c -o devices/serial.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/serial.d
+i386-elf-gcc -c ../../devices/block.c -o devices/block.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/block.d
+i386-elf-gcc -c ../../devices/partition.c -o devices/partition.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/partition.d
+i386-elf-gcc -c ../../devices/ide.c -o devices/ide.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/ide.d
+[01m[K../../devices/ide.c:[m[K In function '[01m[Kide_init[m[K':
+[01m[K../../devices/ide.c:135:25:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%c[m[K' expects argument of type '[01m[Kint[m[K', but argument 4 has type '[01m[Klong unsigned int[m[K' [[01;35m[K-Wformat=[m[K]
+                     "hd%[01;35m[Kc[m[K", 'a' + chan_no * 2 + dev_no);
+                         [01;35m[K^[m[K
+i386-elf-gcc -c ../../devices/input.c -o devices/input.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/input.d
+i386-elf-gcc -c ../../devices/intq.c -o devices/intq.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/intq.d
+i386-elf-gcc -c ../../devices/rtc.c -o devices/rtc.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/rtc.d
+i386-elf-gcc -c ../../devices/shutdown.c -o devices/shutdown.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/shutdown.d
+i386-elf-gcc -c ../../devices/speaker.c -o devices/speaker.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF devices/speaker.d
+i386-elf-gcc -c ../../lib/debug.c -o lib/debug.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/debug.d
+[01m[K../../lib/debug.c:[m[K In function '[01m[Kdebug_backtrace[m[K':
+[01m[K../../lib/debug.c:19:14:[m[K [01;35m[Kwarning: [m[Kcalling '[01m[K__builtin_frame_address[m[K' with a nonzero argument is unsafe [[01;35m[K-Wframe-address[m[K]
+   for ([01;35m[Kframe = __builtin_frame_address (1)[m[K;
+        [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+i386-elf-gcc -c ../../lib/random.c -o lib/random.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/random.d
+i386-elf-gcc -c ../../lib/stdio.c -o lib/stdio.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/stdio.d
+i386-elf-gcc -c ../../lib/stdlib.c -o lib/stdlib.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/stdlib.d
+i386-elf-gcc -c ../../lib/string.c -o lib/string.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/string.d
+In file included from [01m[K../../lib/string.c:2:0[m[K:
+[01m[K../../lib/string.c:[m[K In function '[01m[Kstrchr[m[K':
+[01m[K../../lib/debug.h:32:12:[m[K [01;35m[Kwarning: [m[Knonnull argument '[01m[Kstring[m[K' compared to NULL [[01;35m[K-Wnonnull-compare[m[K]
+         if [01;35m[K([m[KCONDITION) { } else {                               \
+            [01;35m[K^[m[K
+[01m[K../../lib/string.c:117:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KASSERT[m[K'
+   [01;36m[KASSERT[m[K (string != NULL);
+   [01;36m[K^~~~~~[m[K
+[01m[K../../lib/string.c:[m[K In function '[01m[Kstrlen[m[K':
+[01m[K../../lib/debug.h:32:12:[m[K [01;35m[Kwarning: [m[Knonnull argument '[01m[Kstring[m[K' compared to NULL [[01;35m[K-Wnonnull-compare[m[K]
+         if [01;35m[K([m[KCONDITION) { } else {                               \
+            [01;35m[K^[m[K
+[01m[K../../lib/string.c:297:3:[m[K [01;36m[Knote: [m[Kin expansion of macro '[01m[KASSERT[m[K'
+   [01;36m[KASSERT[m[K (string != NULL);
+   [01;36m[K^~~~~~[m[K
+i386-elf-gcc -c ../../lib/arithmetic.c -o lib/arithmetic.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/arithmetic.d
+i386-elf-gcc -c ../../lib/ustar.c -o lib/ustar.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/ustar.d
+i386-elf-gcc -c ../../lib/kernel/debug.c -o lib/kernel/debug.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/debug.d
+[01m[K../../lib/kernel/debug.c:[m[K In function '[01m[Kprint_stacktrace[m[K':
+[01m[K../../lib/kernel/debug.c:82:13:[m[K [01;35m[Kwarning: [m[Kcalling '[01m[K__builtin_frame_address[m[K' with a nonzero argument is unsafe [[01;35m[K-Wframe-address[m[K]
+       [01;35m[Kframe = __builtin_frame_address (1)[m[K;
+       [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+i386-elf-gcc -c ../../lib/kernel/list.c -o lib/kernel/list.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/list.d
+i386-elf-gcc -c ../../lib/kernel/bitmap.c -o lib/kernel/bitmap.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/bitmap.d
+i386-elf-gcc -c ../../lib/kernel/hash.c -o lib/kernel/hash.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/hash.d
+i386-elf-gcc -c ../../lib/kernel/console.c -o lib/kernel/console.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF lib/kernel/console.d
+i386-elf-gcc -c ../../tests/threads/tests.c -o tests/threads/tests.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/tests.d
+i386-elf-gcc -c ../../tests/threads/alarm-wait.c -o tests/threads/alarm-wait.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-wait.d
+i386-elf-gcc -c ../../tests/threads/alarm-simultaneous.c -o tests/threads/alarm-simultaneous.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-simultaneous.d
+i386-elf-gcc -c ../../tests/threads/alarm-priority.c -o tests/threads/alarm-priority.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-priority.d
+i386-elf-gcc -c ../../tests/threads/alarm-zero.c -o tests/threads/alarm-zero.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-zero.d
+i386-elf-gcc -c ../../tests/threads/alarm-negative.c -o tests/threads/alarm-negative.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/alarm-negative.d
+i386-elf-gcc -c ../../tests/threads/priority-change.c -o tests/threads/priority-change.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-change.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-one.c -o tests/threads/priority-donate-one.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-one.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-multiple.c -o tests/threads/priority-donate-multiple.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-multiple.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-multiple2.c -o tests/threads/priority-donate-multiple2.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-multiple2.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-nest.c -o tests/threads/priority-donate-nest.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-nest.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-sema.c -o tests/threads/priority-donate-sema.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-sema.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-lower.c -o tests/threads/priority-donate-lower.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-lower.d
+i386-elf-gcc -c ../../tests/threads/priority-fifo.c -o tests/threads/priority-fifo.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-fifo.d
+i386-elf-gcc -c ../../tests/threads/priority-preempt.c -o tests/threads/priority-preempt.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-preempt.d
+i386-elf-gcc -c ../../tests/threads/priority-sema.c -o tests/threads/priority-sema.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-sema.d
+i386-elf-gcc -c ../../tests/threads/priority-condvar.c -o tests/threads/priority-condvar.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-condvar.d
+i386-elf-gcc -c ../../tests/threads/priority-donate-chain.c -o tests/threads/priority-donate-chain.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/priority-donate-chain.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-load-1.c -o tests/threads/mlfqs-load-1.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-load-1.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-load-60.c -o tests/threads/mlfqs-load-60.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-load-60.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-load-avg.c -o tests/threads/mlfqs-load-avg.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-load-avg.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-recent-1.c -o tests/threads/mlfqs-recent-1.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-recent-1.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-fair.c -o tests/threads/mlfqs-fair.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-fair.d
+i386-elf-gcc -c ../../tests/threads/mlfqs-block.c -o tests/threads/mlfqs-block.o -m32 -g -msoft-float -O0 -fno-stack-protector -nostdinc -I../.. -I../../lib -I../../lib/kernel -Wall -W -Wstrict-prototypes -Wmissing-prototypes -Wsystem-headers  -MMD -MF tests/threads/mlfqs-block.d
+i386-elf-ld -melf_i386 -T threads/kernel.lds.s -o kernel.o threads/start.o threads/init.o threads/thread.o threads/switch.o threads/interrupt.o threads/intr-stubs.o threads/synch.o threads/palloc.o threads/malloc.o devices/pit.o devices/timer.o devices/kbd.o devices/vga.o devices/serial.o devices/block.o devices/partition.o devices/ide.o devices/input.o devices/intq.o devices/rtc.o devices/shutdown.o devices/speaker.o lib/debug.o lib/random.o lib/stdio.o lib/stdlib.o lib/string.o lib/arithmetic.o lib/ustar.o lib/kernel/debug.o lib/kernel/list.o lib/kernel/bitmap.o lib/kernel/hash.o lib/kernel/console.o tests/threads/tests.o tests/threads/alarm-wait.o tests/threads/alarm-simultaneous.o tests/threads/alarm-priority.o tests/threads/alarm-zero.o tests/threads/alarm-negative.o tests/threads/priority-change.o tests/threads/priority-donate-one.o tests/threads/priority-donate-multiple.o tests/threads/priority-donate-multiple2.o tests/threads/priority-donate-nest.o tests/threads/priority-donate-sema.o tests/threads/priority-donate-lower.o tests/threads/priority-fifo.o tests/threads/priority-preempt.o tests/threads/priority-sema.o tests/threads/priority-condvar.o tests/threads/priority-donate-chain.o tests/threads/mlfqs-load-1.o tests/threads/mlfqs-load-60.o tests/threads/mlfqs-load-avg.o tests/threads/mlfqs-recent-1.o tests/threads/mlfqs-fair.o tests/threads/mlfqs-block.o
+i386-elf-objdump -S kernel.o > kernel.asm
+i386-elf-nm -n kernel.o > kernel.sym
+i386-elf-objcopy -R .note -R .comment -S kernel.o kernel.bin
+i386-elf-gcc -c ../../threads/loader.S -o threads/loader.o -Wa,--gstabs,--32 -nostdinc -I../.. -I../../lib 
+i386-elf-ld -melf_i386 -N -e 0 -Ttext 0x7c00 -o loader.out threads/loader.o
+i386-elf-objdump -S loader.out > loader.asm
+i386-elf-objcopy -S -O binary -j .text loader.out loader.bin
+rm loader.out
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ pintos --
+[?2004lqemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/3nn3ksYKh_.dsk -m 4 -net none -serial stdio
+Pintos hda1
+Loading...........
+Kernel command line:
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  69,017,600 loops/s.
+Boot complete.
+qemu: terminating on signal 2
+
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ pintos -- -q
+[?2004lqemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/7hnLgWz9SL.dsk -m 4 -net none -serial stdio
+Pintos hda1
+Loading...........
+Kernel command line: -q
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  78,540,800 loops/s.
+Boot complete.
+Timer: 21 ticks
+Thread: 0 idle ticks, 21 kernel ticks, 0 user ticks
+Console: 255 characters output
+Keyboard: 0 keys pressed
+Powering off...
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ pintos -- -q[K[K[K
+[?2004lqemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/pjPQJbEfWc.dsk -m 4 -net none -serial stdio
+Pintos hda1
+Loading...........
+Kernel command line:
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  153,395,200 loops/s.
+Boot complete.
+qemu: terminating on signal 2
+
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ pintos --
+[?2004lqemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/Eq3474kVnY.dsk -m 4 -net none -serial stdio
+Pintos hda1
+Loading...........
+Kernel command line:
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  120,832,000 loops/s.
+Boot complete.
+qemu: terminating on signal 2
+
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ pintos -- -run alarm-single
+[?2004lqemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/p09OzyVLhW.dsk -m 4 -net none -serial stdio
+Pintos hda1
+Loading...........
+Kernel command line: -run alarm-single
+Kernel PANIC at ../../threads/init.c:268 in parse_options(): unknown option `-run' (use -h for help)
+Call stack: 0xc002958d 0xc0020727 0xc00202d4.
+The `backtrace' program can make call stacks useful.
+Read "Backtraces" in the "Debugging Tools" chapter
+of the Pi

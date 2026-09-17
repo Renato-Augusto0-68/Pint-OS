@@ -2,3 +2,4 @@ toolchain/
 build/
 pintos/src/utils/build/
 .vscode/
+*.o
