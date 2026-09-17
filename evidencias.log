@@ -52588,4 +52588,28 @@ Kernel PANIC at ../../threads/init.c:268 in parse_options(): unknown option `-ru
 Call stack: 0xc002958d 0xc0020727 0xc00202d4.
 The `backtrace' program can make call stacks useful.
 Read "Backtraces" in the "Debugging Tools" chapter
-of the Pi
+of the Pintos documentation for more information.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ [7m$ cd InfrSW/toolchain/x86_64/bin[27m$ cd InfrSW/toolchain/x86_64/bin[1P/toolchain/x86_64/bin[1P/toolchain/x86_64/bin[1P/toolchain/x86_64/bin[1P/toolchain/x86_64/bin[1P/toolchain/x86_64/bin[1P/toolchain/x86_64/bin[1Ptoolchain/x86_64/bin.toolchain/x86_64/bin.toolchain/x86_64/bin toolchain/x86_64/bin[1Ptoolchain/x86_64/bin/toolchain/x86_64/bin.toolchain/x86_64/bin.toolchain/x86_64/bin[1Poolchain/x86_64/bin[C[1Plchain/x86_64/bin[1Plchain/x86_64/bin[1Pchain/x86_64/bin[1Phain/x86_64/bin[1Pain/x86_64/bin[1Pin/x86_64/bin[1Pn/x86_64/bin[1P/x86_64/bin[1Px86_64/bin[1P86_64/bin[1P6_64/bin[1P_64/bin[1P64/bin[1P4/bin[1P/bin[1Pbin[1Pin[1Pn[K
+[?2004l$: command not found
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ cd 
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~[01;32mdevcontainers@PcdeRe28[00m:[01;34m~[00m$ cd [7m/dev/rass/Pint-OS/pintos[27m/dev/rass/Pint-OS/pintos[K[K[K[K[K[K[1Pdev/rass/Pint-OS/
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ cd toolchain/x86_64/bin
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/x86_64/bin[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/x86_64/bin[00m$ [7m$chmod 751 pintos[27m$chmod 751 pintos[C[C[1P
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/x86_64/bin[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/x86_64/bin[00m$ chmod 751 pintosd toolchain/x86_64/bin[3Pdev/rass/Pint-OS/[K$ cd ../..pintos -- -run alarm-single[K -q[K[5Pmakepintos -- -q[K -run alarm-single[17P$ cd ../..cd [K-
+[?2004l/home/devcontainers/dev/rass/Pint-OS
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ [7mpintos/src/threads/buil[27mpintos/src/threads/build
+[?2004lbash: pintos/src/threads/build: Is a directory
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ cd pintos/src/threads/buildcpintos/src/threads/builddpintos/src/threads/build pintos/src/threads/build
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/pintos/src/threads/build[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/pintos/src/threads/build[00m$ pintos --
+[?2004lqemu-system-i386 -device isa-debug-exit -drive format=raw,media=disk,index=0,file=/tmp/AXzceBugvf.dsk -m 4 -net none -serial stdio
+Pintos hda1
+Loading...........
+Kernel command line:
+Pintos booting with 3,968 kB RAM...
+367 pages available in kernel pool.
+367 pages available in user pool.
+Calibrating timer...  156,262,400 loops/s.
+Boot complete.
+qemu: terminating on signal 2
+
+[?2004h]0;devco
