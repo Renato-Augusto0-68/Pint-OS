@@ -51964,4 +51964,301 @@ if test "x" != x ; then \
      compile  -Warity-mismatch -Wformat -Wunused-toplevel -L . -o "$go" "$source" || exit 1 ; \
   done ; \
 fi
-mkdir ./sys
+mkdir ./system-gdbinit
+touch stamp-guile
+files='gdb-syscalls.dtd freebsd.xml aarch64-linux.xml amd64-linux.xml arm-linux.xml i386-linux.xml mips-n32-linux.xml mips-n64-linux.xml mips-o32-linux.xml ppc-linux.xml ppc64-linux.xml s390-linux.xml s390x-linux.xml sparc-linux.xml sparc64-linux.xml' ; \
+for file in $files ; do \
+  f=../../../../src/gdb-8.2/gdb/data-directory/../syscalls/$file ; \
+  if test -f $f ; then \
+    /usr/bin/install -c -m 644 $f ./syscalls ; \
+  fi ; \
+done
+files='elinos.py wrs-linux.py' ; \
+for file in $files ; do \
+  f=../../../../src/gdb-8.2/gdb/data-directory/../system-gdbinit/$file ; \
+  if test -f $f ; then \
+    /usr/bin/install -c -m 644 $f ./system-gdbinit ; \
+  fi ; \
+done
+touch stamp-system-gdbinit
+touch stamp-syscalls
+make[4]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/data-directory'
+make[4]: Entering directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib'
+make[5]: Entering directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib'
+make[6]: Entering directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib/import'
+make  all-recursive
+make[7]: Entering directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib/import'
+make[8]: Entering directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib/import'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib/import'
+make[7]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib/import'
+make[6]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib/import'
+make[5]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib'
+make[4]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb/build-gnulib'
+make[3]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb'
+make[2]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb/gdb'
+make[1]: Leaving directory '/home/devcontainers/dev/rass/Pint-OS/toolchain/build/gdb'
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ [7msudo apt-get install texinfo[27msudo apt-get install texinfo
+[?2004l[sudo] password for devcontainers: 
+Sorry, try again.
+[sudo] password for devcontainers: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+texinfo is already the newest version (7.1-3build2).
+0 upgraded, 0 newly installed, 0 to remove and 33 not upgraded.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ [7mwhich i386-elf-gcc[27mwhich i386-elf-gcc
+[?2004l/home/devcontainers/dev/rass/Pint-OS/toolchain/x86_64/bin/i386-elf-gcc
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ [7mi386-elf-gcc --version[27mi386-elf-gcc --version
+[?2004li386-elf-gcc (GCC) 6.2.0
+Copyright (C) 2016 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ [7msudo apt-get install qemu[27msudo apt-get install qemu
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+Package qemu is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'qemu' has no installation candidate
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ [7msudo apt-get install qemu-system[27msudo apt-get install qemu-system
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+qemu-system is already the newest version (1:8.2.2+ds-0ubuntu1.18).
+0 upgraded, 0 newly installed, 0 to remove and 33 not upgraded.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ [7mapt show qemu-system-x86[27mapt show qemu-system-x86
+[?2004lPackage: qemu-system-x86
+Version: 1:8.2.2+ds-0ubuntu1.18
+Priority: optional
+Section: misc
+Source: qemu
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 60.0 MB
+Provides: qemu-kvm (= 1:8.2.2+ds-0ubuntu1.18), qemu-system-amd64 (= 1:8.2.2+ds-0ubuntu1.18), qemu-system-any (= 1:8.2.2+ds-0ubuntu1.18), qemu-system-i386 (= 1:8.2.2+ds-0ubuntu1.18), qemu-system-x86-64 (= 1:8.2.2+ds-0ubuntu1.18)
+Depends: libaio1t64 (>= 0.3.93), libbpf1 (>= 1:0.0.8), libc6 (>= 2.38), libfdt1 (>= 1.7.0), libfuse3-3 (>= 3.2.3), libglib2.0-0t64 (>= 2.77.3), libgmp10 (>= 2:6.3.0+dfsg), libgnutls30t64 (>= 3.8.2), libhogweed6t64, libibverbs1 (>= 1.1.6), libjpeg8 (>= 8c), libnettle8t64, libnuma1 (>= 2.0.15), libpixman-1-0 (>= 0.19.6), libpmem1 (>= 1.4), libpng16-16t64 (>= 1.6.2), librdmacm1t64 (>= 1.0.15), libsasl2-2 (>= 2.1.28+dfsg1), libseccomp2 (>= 2.1.0), libslirp0 (>= 4.7.0), libudev1 (>= 183), liburing2 (>= 2.3), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.0), qemu-system-common (= 1:8.2.2+ds-0ubuntu1.18), qemu-system-data (>> 1:8.2.2+ds~), seabios (>> 1.16.3-1~), ipxe-qemu
+Recommends: qemu-utils, ipxe-qemu-256k-compat-efi-roms, ovmf, qemu-system-gui (= 1:8.2.2+ds-0ubuntu1.18), qemu-system-modules-spice (= 1:8.2.2+ds-0ubuntu1.18), qemu-system-modules-opengl (= 1:8.2.2+ds-0ubuntu1.18), qemu-block-extra (= 1:8.2.2+ds-0ubuntu1.18), cpu-checker
+Suggests: samba, vde2
+Homepage: http://www.qemu.org/
+Download-Size: 11.2 MB
+APT-Manual-Installed: no
+APT-Sources: http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+Description: QEMU full system emulation binaries (x86)
+ QEMU is a fast processor emulator: currently the package supports
+ i386 and x86-64 emulation. By using dynamic translation it achieves
+ reasonable speed while being easy to port on new host CPUs.
+ .
+ This package provides the full system emulation binaries to emulate
+ the following x86 hardware: i386 x86_64 (amd64).
+ .
+ In system emulation mode QEMU emulates a full system, including a processor
+ and various peripherals.  It enables easier testing and debugging of system
+ code.  It can also be used to provide virtual hosting of several virtual
+ machines on a single server.
+ .
+ On x86 host hardware this package also enables KVM kernel virtual machine
+ usage on systems which supports it.
+
+[33mN: [0mThere are 2 additional records. Please use the '-a' switch to see them.[0m
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ nao[Kno ./[K[K~/.B[Kbashrc
+[?2004l[?2004h[?1049h[22;0;0t[1;29r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[27;72H(B[0;7m[ Reading... ](B[m[27;70H(B[0;7m[ Read 135 lines ](B[m[H(B[0;7m  GNU nano 7.2                                                     /home/devcontainers/.bashrc                                                               [1;156H(B[m[28d(B[0;7m^G(B[m Help[28;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[28;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[28;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[29d(B[0;7m^X(B[m Exit[29;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[29;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[29;120H(B[0;7mM-6(B[m Copy[29;137H(B[0;7m^Q(B[m Where Was[2d[36m# ~/.bashrc: executed by bash(1) for non-login shells.[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[4d# for examples[6d# If not running interactively, don't do anything[7d[32mcase[39m(B[m (B[0;1m[31m$-[39m(B[m [32min[8;5H[39m(B[m*i*[32m)[39m(B[m [32m;;[9;7H[39m(B[m*[32m)[39m(B[m [32mreturn;;[10desac[12d[36m# don't put duplicate lines or lines starting with space in the history.[13d# See bash(1) for more options[14d[39m(B[mHISTCONTROL[32m=[39m(B[mignoreboth[16d[36m# append to the history file, don't overwrite it[17d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[19d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[20d[39m(B[mHISTSIZE[32m=[39m(B[m1000[21dHISTFILESIZE[32m=[39m(B[m2000[23d[36m# check the window size after each command and, if necessary,[24d# update the values of LINES and COLUMNS.[25d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[?12l[?25h[6d[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[9d[?25l[?12l[?25h[10d[?25l[?12l[?25h[11d[?25l[?12l[?25h[12d[?25l[?12l[?25h[13d[?25l[?12l[?25h[14d[?25l[?12l[?25h[15d[?25l[?12l[?25h[16d[?25l[?12l[?25h[17d[?25l[?12l[?25h[18d[?25l[?12l[?25h[19d[?25l[?12l[?25h[20d[?25l[?12l[?25h[21d[?25l[27d[K[?12l[?25h[22d[?25l[?12l[?25h[23d[?25l[?12l[?25h[24d[?25l[?12l[?25h[25d[?25l[?12l[?25h[26d[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# If set, the pattern (B[0;1m[33m"**"(B[0m[36m used in a pathname expansion context will[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# match all files and zero or more directories and subdirectories.[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m#shopt -s globstar[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# make less more friendly for non-text input files, see lesspipe(1)[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# set variable identifying the chroot you work in (used in the prompt below)[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"${debian_chroot:-}"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5Hdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5Hxterm-color[32m|[39m(B[m*-256color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# uncomment for a colored prompt, if the terminal has the capability; turned[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# off by default to not distract the user: the focus in a terminal window[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# should be on the output of commands, not on the prompt[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m#force_color_prompt=yes[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;8H[36m[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;8H[36m[1K # a case would tend to support setf rather than setaf.)[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;9Hcolor_prompt[32m=[39m(B[myes[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H[32melse[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;9Hcolor_prompt[32m=[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32melse[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5HPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# If this is an xterm set the title to user@host:dir[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Hxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H*[32m)[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H[32m;;[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mesac[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# enable color support of ls and also add handy aliases[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5Htest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b)"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5Halias ls[32m=(B[0;1m[33m'ls --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;4H[36m #alias dir=(B[0;1m[33m'dir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;4H[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5Halias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5Halias egrep[32m=(B[0;1m[33m'egrep --color=auto'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# colored GCC warnings and errors[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m#export GCC_COLORS=(B[0;1m[33m'error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# some more ls aliases[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias ll[32m=(B[0;1m[33m'ls -alF'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias la[32m=(B[0;1m[33m'ls -A'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias l[32m=(B[0;1m[33m'ls -CF'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias text_files[32m=(B[0;1m[33m'echo "in the file" && pwd && cont=0; for i not in *.txt; do echo "$i n é .txt"; ((cont++)); done; echo "A quantidade é $cont";'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias file_data[32m=(B[0;1m[33m"ls -l -a && echo 'in' && pwd"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias java_project[32m=(B[0;1m[33m"cd /mnt/c/Users/renat/eclipse-workspace/githubProject && code ."[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias linkedin_start[32m=(B[0;1m[33m'cd ~/dev/teste_linux && source venv/bin/activate && shc -f Linkedin_script.sh && ./Linkedin_script.sh.x'[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# Add an (B[0;1m[33m"alert"(B[0m[36m alias for long running commands.  Use like so:[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m#   sleep 10; alert[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1Halias alert[32m=(B[0;1m[33m'notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '(B[0m[32m\(B[0;1m[33m''[39m(B[ms/^[32m\[39m(B[ms*[32m[[39m(B[m0-9[32m]\[39m(B[m+[32m\[39m(B[ms*//[32m;[39m(B[ms/[32m[;&|]\[39m(B[ms*alert[32m$[39m(B[m/(B[0;7m>[26;1H(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# Alias definitions.[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# You may want to put all your additions into a separate file like[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# ~/.bash_aliases, instead of adding them here directly.[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# See /usr/share/doc/bash-doc/examples in the bash-doc package.[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m ~/.bash_aliases [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H. ~/.bash_aliases[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# enable programmable completion features (you don't need to enable[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[36m# sources /etc/bash.bashrc).[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mif[39m(B[m [32m![39m(B[m shopt -oq posix[32m;[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;3H[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /usr/share/bash-completion/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H. /usr/share/bash-completion/bash_completion[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;3H[32melif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m /etc/bash_completion [32m];[39m(B[m [32mthen[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;5H. /etc/bash_completion[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;3H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mfi[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mexport[39m(B[m GALLIUM_DRIVER[32m=[39m(B[md3d12[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mexport[39m(B[m MESA_D3D12_DEFAULT_ADAPTER_NAME[32m=[39m(B[mINTEL[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mexport[39m(B[m PINTOS[32m=(B[0;1m[33m"$HOME/dev/rass/Pint-OS/pintos"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mexport[39m(B[m SWD[32m=(B[0;1m[33m"$HOME/dev/rass/Pint-OS/toolchain"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mexport[39m(B[m PATH[32m=(B[0;1m[33m"$PATH:$SWD/x86_64/bin"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mexport[39m(B[m LD_LIBRARY_PATH[32m=(B[0;1m[33m"$PREFIX/lib:$LD_LIBRARY_PATH"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[32mexport[39m(B[m PREFIX[32m=(B[0;1m[33m"$SWD/x86_64"[39m(B[m[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[?12l[?25h7[2;27r8[27d
+[1;29r[26;1H[?25l[28d[J[29d[?12l[?25h[29;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ git clone [7mgit clone https://github.com/jhu-cs318/pintos.git[27mgit clone https://github.com/jhu-cs318/pintos.git
+[?2004lfatal: Too many arguments.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]progress       force progress reporting
+    --[no-]reject-shallow don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --checkout            opposite of --no-checkout
+    --[no-]bare           create a bare repository
+    --[no-]mirror         create a mirror repository (implies bare)
+    -l, --[no-]local      to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    --hardlinks           opposite of --no-hardlinks
+    -s, --[no-]shared     setup as shared repository
+    --[no-]recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --[no-]recursive ...  alias of --recurse-submodules
+    -j, --[no-]jobs <n>   number of submodules cloned in parallel
+    --[no-]template <template-directory>
+                          directory from which templates will be used
+    --[no-]reference <repo>
+                          reference repository
+    --[no-]reference-if-able <repo>
+                          reference repository
+    --[no-]dissociate     use --reference only while cloning
+    -o, --[no-]origin <name>
+                          use <name> instead of 'origin' to track upstream
+    -b, --[no-]branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --[no-]upload-pack <path>
+                          path to git-upload-pack on the remote
+    --[no-]depth <depth>  create a shallow clone of that depth
+    --[no-]shallow-since <time>
+                          create a shallow clone since a specific time
+    --[no-]shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --[no-]single-branch  clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --tags                opposite of --no-tags
+    --[no-]shallow-submodules
+                          any cloned submodules will be shallow
+    --[no-]separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --[no-]config <key=value>
+                          set config inside the new repository
+    --[no-]server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --[no-]filter <args>  object filtering
+    --[no-]also-filter-submodules
+                          apply partial clone filters to submodules
+    --[no-]remote-submodules
+                          any cloned submodules will use their remote-tracking branch
+    --[no-]sparse         initialize sparse-checkout file to include only files at root
+    --[no-]bundle-uri <uri>
+                          a URI for downloading bundles before fetching from origin remote
+
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ git clone git clone https://github.com/jhu-cs318/pintos.git[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+[?2004lCloning into 'pintos'...
+remote: Enumerating objects: 716, done.[K
+remote: Counting objects:   1% (1/80)[Kremote: Counting objects:   2% (2/80)[Kremote: Counting objects:   3% (3/80)[Kremote: Counting objects:   5% (4/80)[Kremote: Counting objects:   6% (5/80)[Kremote: Counting objects:   7% (6/80)[Kremote: Counting objects:   8% (7/80)[Kremote: Counting objects:  10% (8/80)[Kremote: Counting objects:  11% (9/80)[Kremote: Counting objects:  12% (10/80)[Kremote: Counting objects:  13% (11/80)[Kremote: Counting objects:  15% (12/80)[Kremote: Counting objects:  16% (13/80)[Kremote: Counting objects:  17% (14/80)[Kremote: Counting objects:  18% (15/80)[Kremote: Counting objects:  20% (16/80)[Kremote: Counting objects:  21% (17/80)[Kremote: Counting objects:  22% (18/80)[Kremote: Counting objects:  23% (19/80)[Kremote: Counting objects:  25% (20/80)[Kremote: Counting objects:  26% (21/80)[Kremote: Counting objects:  27% (22/80)[Kremote: Counting objects:  28% (23/80)[Kremote: Counting objects:  30% (24/80)[Kremote: Counting objects:  31% (25/80)[Kremote: Counting objects:  32% (26/80)[Kremote: Counting objects:  33% (27/80)[Kremote: Counting objects:  35% (28/80)[Kremote: Counting objects:  36% (29/80)[Kremote: Counting objects:  37% (30/80)[Kremote: Counting objects:  38% (31/80)[Kremote: Counting objects:  40% (32/80)[Kremote: Counting objects:  41% (33/80)[Kremote: Counting objects:  42% (34/80)[Kremote: Counting objects:  43% (35/80)[Kremote: Counting objects:  45% (36/80)[Kremote: Counting objects:  46% (37/80)[Kremote: Counting objects:  47% (38/80)[Kremote: Counting objects:  48% (39/80)[Kremote: Counting objects:  50% (40/80)[Kremote: Counting objects:  51% (41/80)[Kremote: Counting objects:  52% (42/80)[Kremote: Counting objects:  53% (43/80)[Kremote: Counting objects:  55% (44/80)[Kremote: Counting objects:  56% (45/80)[Kremote: Counting objects:  57% (46/80)[Kremote: Counting objects:  58% (47/80)[Kremote: Counting objects:  60% (48/80)[Kremote: Counting objects:  61% (49/80)[Kremote: Counting objects:  62% (50/80)[Kremote: Counting objects:  63% (51/80)[Kremote: Counting objects:  65% (52/80)[Kremote: Counting objects:  66% (53/80)[Kremote: Counting objects:  67% (54/80)[Kremote: Counting objects:  68% (55/80)[Kremote: Counting objects:  70% (56/80)[Kremote: Counting objects:  71% (57/80)[Kremote: Counting objects:  72% (58/80)[Kremote: Counting objects:  73% (59/80)[Kremote: Counting objects:  75% (60/80)[Kremote: Counting objects:  76% (61/80)[Kremote: Counting objects:  77% (62/80)[Kremote: Counting objects:  78% (63/80)[Kremote: Counting objects:  80% (64/80)[Kremote: Counting objects:  81% (65/80)[Kremote: Counting objects:  82% (66/80)[Kremote: Counting objects:  83% (67/80)[Kremote: Counting objects:  85% (68/80)[Kremote: Counting objects:  86% (69/80)[Kremote: Counting objects:  87% (70/80)[Kremote: Counting objects:  88% (71/80)[Kremote: Counting objects:  90% (72/80)[Kremote: Counting objects:  91% (73/80)[Kremote: Counting objects:  92% (74/80)[Kremote: Counting objects:  93% (75/80)[Kremote: Counting objects:  95% (76/80)[Kremote: Counting objects:  96% (77/80)[Kremote: Counting objects:  97% (78/80)[Kremote: Counting objects:  98% (79/80)[Kremote: Counting objects: 100% (80/80)[Kremote: Counting objects: 100% (80/80), done.[K
+remote: Compressing objects:   1% (1/60)[Kremote: Compressing objects:   3% (2/60)[Kremote: Compressing objects:   5% (3/60)[Kremote: Compressing objects:   6% (4/60)[Kremote: Compressing objects:   8% (5/60)[Kremote: Compressing objects:  10% (6/60)[Kremote: Compressing objects:  11% (7/60)[Kremote: Compressing objects:  13% (8/60)[Kremote: Compressing objects:  15% (9/60)[Kremote: Compressing objects:  16% (10/60)[Kremote: Compressing objects:  18% (11/60)[Kremote: Compressing objects:  20% (12/60)[Kremote: Compressing objects:  21% (13/60)[Kremote: Compressing objects:  23% (14/60)[Kremote: Compressing objects:  25% (15/60)[Kremote: Compressing objects:  26% (16/60)[Kremote: Compressing objects:  28% (17/60)[Kremote: Compressing objects:  30% (18/60)[Kremote: Compressing objects:  31% (19/60)[Kremote: Compressing objects:  33% (20/60)[Kremote: Compressing objects:  35% (21/60)[Kremote: Compressing objects:  36% (22/60)[Kremote: Compressing objects:  38% (23/60)[Kremote: Compressing objects:  40% (24/60)[Kremote: Compressing objects:  41% (25/60)[Kremote: Compressing objects:  43% (26/60)[Kremote: Compressing objects:  45% (27/60)[Kremote: Compressing objects:  46% (28/60)[Kremote: Compressing objects:  48% (29/60)[Kremote: Compressing objects:  50% (30/60)[Kremote: Compressing objects:  51% (31/60)[Kremote: Compressing objects:  53% (32/60)[Kremote: Compressing objects:  55% (33/60)[Kremote: Compressing objects:  56% (34/60)[Kremote: Compressing objects:  58% (35/60)[Kremote: Compressing objects:  60% (36/60)[Kremote: Compressing objects:  61% (37/60)[Kremote: Compressing objects:  63% (38/60)[Kremote: Compressing objects:  65% (39/60)[Kremote: Compressing objects:  66% (40/60)[Kremote: Compressing objects:  68% (41/60)[Kremote: Compressing objects:  70% (42/60)[Kremote: Compressing objects:  71% (43/60)[Kremote: Compressing objects:  73% (44/60)[Kremote: Compressing objects:  75% (45/60)[Kremote: Compressing objects:  76% (46/60)[Kremote: Compressing objects:  78% (47/60)[Kremote: Compressing objects:  80% (48/60)[Kremote: Compressing objects:  81% (49/60)[Kremote: Compressing objects:  83% (50/60)[Kremote: Compressing objects:  85% (51/60)[Kremote: Compressing objects:  86% (52/60)[Kremote: Compressing objects:  88% (53/60)[Kremote: Compressing objects:  90% (54/60)[Kremote: Compressing objects:  91% (55/60)[Kremote: Compressing objects:  93% (56/60)[Kremote: Compressing objects:  95% (57/60)[Kremote: Compressing objects:  96% (58/60)[Kremote: Compressing objects:  98% (59/60)[Kremote: Compressing objects: 100% (60/60)[Kremote: Compressing objects: 100% (60/60), done.[K
+Receiving objects:   0% (1/716)Receiving objects:   1% (8/716)Receiving objects:   2% (15/716)Receiving objects:   3% (22/716)Receiving objects:   4% (29/716)Receiving objects:   5% (36/716)Receiving objects:   6% (43/716)Receiving objects:   7% (51/716)Receiving objects:   8% (58/716)Receiving objects:   9% (65/716)Receiving objects:  10% (72/716)Receiving objects:  11% (79/716)Receiving objects:  12% (86/716)Receiving objects:  13% (94/716)Receiving objects:  14% (101/716)Receiving objects:  15% (108/716)Receiving objects:  16% (115/716)Receiving objects:  17% (122/716)Receiving objects:  18% (129/716)Receiving objects:  19% (137/716)Receiving objects:  20% (144/716)Receiving objects:  21% (151/716)Receiving objects:  22% (158/716)Receiving objects:  23% (165/716)Receiving objects:  24% (172/716)Receiving objects:  25% (179/716)Receiving objects:  26% (187/716)Receiving objects:  27% (194/716)Receiving objects:  28% (201/716)Receiving objects:  29% (208/716)Receiving objects:  30% (215/716)Receiving objects:  31% (222/716)Receiving objects:  32% (230/716)Receiving objects:  33% (237/716)Receiving objects:  34% (244/716)Receiving objects:  35% (251/716)Receiving objects:  36% (258/716)Receiving objects:  37% (265/716)Receiving objects:  38% (273/716)Receiving objects:  39% (280/716)Receiving objects:  40% (287/716)Receiving objects:  41% (294/716)Receiving objects:  42% (301/716)Receiving objects:  43% (308/716)Receiving objects:  44% (316/716)Receiving objects:  45% (323/716)Receiving objects:  46% (330/716)Receiving objects:  47% (337/716)Receiving objects:  48% (344/716)Receiving objects:  49% (351/716)Receiving objects:  50% (358/716)Receiving objects:  51% (366/716)Receiving objects:  52% (373/716)Receiving objects:  53% (380/716)Receiving objects:  54% (387/716)Receiving objects:  55% (394/716)Receiving objects:  56% (401/716)Receiving objects:  57% (409/716)Receiving objects:  58% (416/716)Receiving objects:  59% (423/716)Receiving objects:  60% (430/716)Receiving objects:  61% (437/716)Receiving objects:  62% (444/716)Receiving objects:  63% (452/716)Receiving objects:  64% (459/716)Receiving objects:  65% (466/716)Receiving objects:  66% (473/716)Receiving objects:  67% (480/716)Receiving objects:  68% (487/716)Receiving objects:  69% (495/716)Receiving objects:  70% (502/716)Receiving objects:  71% (509/716)Receiving objects:  72% (516/716)Receiving objects:  73% (523/716)Receiving objects:  74% (530/716)Receiving objects:  75% (537/716)Receiving objects:  76% (545/716)Receiving objects:  77% (552/716)Receiving objects:  78% (559/716)Receiving objects:  79% (566/716)Receiving objects:  80% (573/716)Receiving objects:  81% (580/716)Receiving objects:  82% (588/716)Receiving objects:  83% (595/716)Receiving objects:  84% (602/716)Receiving objects:  85% (609/716)Receiving objects:  86% (616/716)Receiving objects:  87% (623/716)Receiving objects:  88% (631/716)Receiving objects:  89% (638/716)Receiving objects:  90% (645/716)Receiving objects:  91% (652/716)Receiving objects:  92% (659/716)Receiving objects:  93% (666/716)Receiving objects:  94% (674/716)remote: Total 716 (delta 24), reused 20 (delta 20), pack-reused 636 (from 2)[K
+Receiving objects:  95% (681/716)Receiving objects:  96% (688/716)Receiving objects:  97% (695/716)Receiving objects:  98% (702/716)Receiving objects:  99% (709/716)Receiving objects: 100% (716/716)Receiving objects: 100% (716/716), 361.14 KiB | 895.00 KiB/s, done.
+Resolving deltas:   0% (0/119)Resolving deltas:   1% (2/119)Resolving deltas:   2% (3/119)Resolving deltas:   3% (4/119)Resolving deltas:   4% (5/119)Resolving deltas:   5% (6/119)Resolving deltas:   7% (9/119)Resolving deltas:   9% (11/119)Resolving deltas:  10% (12/119)Resolving deltas:  11% (14/119)Resolving deltas:  13% (16/119)Resolving deltas:  14% (17/119)Resolving deltas:  15% (18/119)Resolving deltas:  17% (21/119)Resolving deltas:  18% (22/119)Resolving deltas:  20% (24/119)Resolving deltas:  21% (25/119)Resolving deltas:  22% (27/119)Resolving deltas:  23% (28/119)Resolving deltas:  24% (29/119)Resolving deltas:  25% (30/119)Resolving deltas:  26% (32/119)Resolving deltas:  28% (34/119)Resolving deltas:  30% (36/119)Resolving deltas:  31% (37/119)Resolving deltas:  32% (39/119)Resolving deltas:  33% (40/119)Resolving deltas:  34% (41/119)Resolving deltas:  35% (42/119)Resolving deltas:  36% (44/119)Resolving deltas:  37% (45/119)Resolving deltas:  38% (46/119)Resolving deltas:  39% (47/119)Resolving deltas:  40% (48/119)Resolving deltas:  41% (49/119)Resolving deltas:  42% (50/119)Resolving deltas:  44% (53/119)Resolving deltas:  45% (54/119)Resolving deltas:  47% (56/119)Resolving deltas:  48% (58/119)Resolving deltas:  49% (59/119)Resolving deltas:  51% (61/119)Resolving deltas:  52% (62/119)Resolving deltas:  53% (64/119)Resolving deltas:  54% (65/119)Resolving deltas:  55% (66/119)Resolving deltas:  56% (67/119)Resolving deltas:  57% (68/119)Resolving deltas:  58% (70/119)Resolving deltas:  59% (71/119)Resolving deltas:  61% (73/119)Resolving deltas:  62% (74/119)Resolving deltas:  63% (75/119)Resolving deltas:  64% (77/119)Resolving deltas:  67% (80/119)Resolving deltas:  68% (81/119)Resolving deltas:  70% (84/119)Resolving deltas:  71% (85/119)Resolving deltas:  72% (86/119)Resolving deltas:  73% (88/119)Resolving deltas:  74% (89/119)Resolving deltas:  75% (90/119)Resolving deltas:  76% (91/119)Resolving deltas:  77% (92/119)Resolving deltas:  78% (93/119)Resolving deltas:  79% (95/119)Resolving deltas:  80% (96/119)Resolving deltas:  81% (97/119)Resolving deltas:  82% (98/119)Resolving deltas:  83% (99/119)Resolving deltas:  84% (100/119)Resolving deltas:  85% (102/119)Resolving deltas:  86% (103/119)Resolving deltas:  87% (104/119)Resolving deltas:  88% (105/119)Resolving deltas:  89% (106/119)Resolving deltas:  91% (109/119)Resolving deltas:  92% (110/119)Resolving deltas:  93% (111/119)Resolving deltas:  94% (112/119)Resolving deltas:  95% (114/119)Resolving deltas:  96% (115/119)Resolving deltas:  97% (116/119)Resolving deltas:  98% (117/119)Resolving deltas:  99% (118/119)Resolving deltas: 100% (119/119)Resolving deltas: 100% (119/119), done.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS/toolchain/build/gdb[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS/toolchain/build/gdb[00m$ cd 
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~[01;32mdevcontainers@PcdeRe28[00m:[01;34m~[00m$ cd [7m~/dev/rass/Pint-OS[27m~/dev/rass/Pint-OS
+[?2004l[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ cd ~/dev/rass/Pint-OS[Kgit clone https://github.com/jhu-cs318/pintos.git
+[?2004lCloning into 'pintos'...
+remote: Enumerating objects: 716, done.[K
+remote: Counting objects:   1% (1/80)[Kremote: Counting objects:   2% (2/80)[Kremote: Counting objects:   3% (3/80)[Kremote: Counting objects:   5% (4/80)[Kremote: Counting objects:   6% (5/80)[Kremote: Counting objects:   7% (6/80)[Kremote: Counting objects:   8% (7/80)[Kremote: Counting objects:  10% (8/80)[Kremote: Counting objects:  11% (9/80)[Kremote: Counting objects:  12% (10/80)[Kremote: Counting objects:  13% (11/80)[Kremote: Counting objects:  15% (12/80)[Kremote: Counting objects:  16% (13/80)[Kremote: Counting objects:  17% (14/80)[Kremote: Counting objects:  18% (15/80)[Kremote: Counting objects:  20% (16/80)[Kremote: Counting objects:  21% (17/80)[Kremote: Counting objects:  22% (18/80)[Kremote: Counting objects:  23% (19/80)[Kremote: Counting objects:  25% (20/80)[Kremote: Counting objects:  26% (21/80)[Kremote: Counting objects:  27% (22/80)[Kremote: Counting objects:  28% (23/80)[Kremote: Counting objects:  30% (24/80)[Kremote: Counting objects:  31% (25/80)[Kremote: Counting objects:  32% (26/80)[Kremote: Counting objects:  33% (27/80)[Kremote: Counting objects:  35% (28/80)[Kremote: Counting objects:  36% (29/80)[Kremote: Counting objects:  37% (30/80)[Kremote: Counting objects:  38% (31/80)[Kremote: Counting objects:  40% (32/80)[Kremote: Counting objects:  41% (33/80)[Kremote: Counting objects:  42% (34/80)[Kremote: Counting objects:  43% (35/80)[Kremote: Counting objects:  45% (36/80)[Kremote: Counting objects:  46% (37/80)[Kremote: Counting objects:  47% (38/80)[Kremote: Counting objects:  48% (39/80)[Kremote: Counting objects:  50% (40/80)[Kremote: Counting objects:  51% (41/80)[Kremote: Counting objects:  52% (42/80)[Kremote: Counting objects:  53% (43/80)[Kremote: Counting objects:  55% (44/80)[Kremote: Counting objects:  56% (45/80)[Kremote: Counting objects:  57% (46/80)[Kremote: Counting objects:  58% (47/80)[Kremote: Counting objects:  60% (48/80)[Kremote: Counting objects:  61% (49/80)[Kremote: Counting objects:  62% (50/80)[Kremote: Counting objects:  63% (51/80)[Kremote: Counting objects:  65% (52/80)[Kremote: Counting objects:  66% (53/80)[Kremote: Counting objects:  67% (54/80)[Kremote: Counting objects:  68% (55/80)[Kremote: Counting objects:  70% (56/80)[Kremote: Counting objects:  71% (57/80)[Kremote: Counting objects:  72% (58/80)[Kremote: Counting objects:  73% (59/80)[Kremote: Counting objects:  75% (60/80)[Kremote: Counting objects:  76% (61/80)[Kremote: Counting objects:  77% (62/80)[Kremote: Counting objects:  78% (63/80)[Kremote: Counting objects:  80% (64/80)[Kremote: Counting objects:  81% (65/80)[Kremote: Counting objects:  82% (66/80)[Kremote: Counting objects:  83% (67/80)[Kremote: Counting objects:  85% (68/80)[Kremote: Counting objects:  86% (69/80)[Kremote: Counting objects:  87% (70/80)[Kremote: Counting objects:  88% (71/80)[Kremote: Counting objects:  90% (72/80)[Kremote: Counting objects:  91% (73/80)[Kremote: Counting objects:  92% (74/80)[Kremote: Counting objects:  93% (75/80)[Kremote: Counting objects:  95% (76/80)[Kremote: Counting objects:  96% (77/80)[Kremote: Counting objects:  97% (78/80)[Kremote: Counting objects:  98% (79/80)[Kremote: Counting objects: 100% (80/80)[Kremote: Counting objects: 100% (80/80), done.[K
+remote: Compressing objects:   1% (1/60)[Kremote: Compressing objects:   3% (2/60)[Kremote: Compressing objects:   5% (3/60)[Kremote: Compressing objects:   6% (4/60)[Kremote: Compressing objects:   8% (5/60)[Kremote: Compressing objects:  10% (6/60)[Kremote: Compressing objects:  11% (7/60)[Kremote: Compressing objects:  13% (8/60)[Kremote: Compressing objects:  15% (9/60)[Kremote: Compressing objects:  16% (10/60)[Kremote: Compressing objects:  18% (11/60)[Kremote: Compressing objects:  20% (12/60)[Kremote: Compressing objects:  21% (13/60)[Kremote: Compressing objects:  23% (14/60)[Kremote: Compressing objects:  25% (15/60)[Kremote: Compressing objects:  26% (16/60)[Kremote: Compressing objects:  28% (17/60)[Kremote: Compressing objects:  30% (18/60)[Kremote: Compressing objects:  31% (19/60)[Kremote: Compressing objects:  33% (20/60)[Kremote: Compressing objects:  35% (21/60)[Kremote: Compressing objects:  36% (22/60)[Kremote: Compressing objects:  38% (23/60)[Kremote: Compressing objects:  40% (24/60)[Kremote: Compressing objects:  41% (25/60)[Kremote: Compressing objects:  43% (26/60)[Kremote: Compressing objects:  45% (27/60)[Kremote: Compressing objects:  46% (28/60)[Kremote: Compressing objects:  48% (29/60)[Kremote: Compressing objects:  50% (30/60)[Kremote: Compressing objects:  51% (31/60)[Kremote: Compressing objects:  53% (32/60)[Kremote: Compressing objects:  55% (33/60)[Kremote: Compressing objects:  56% (34/60)[Kremote: Compressing objects:  58% (35/60)[Kremote: Compressing objects:  60% (36/60)[Kremote: Compressing objects:  61% (37/60)[Kremote: Compressing objects:  63% (38/60)[Kremote: Compressing objects:  65% (39/60)[Kremote: Compressing objects:  66% (40/60)[Kremote: Compressing objects:  68% (41/60)[Kremote: Compressing objects:  70% (42/60)[Kremote: Compressing objects:  71% (43/60)[Kremote: Compressing objects:  73% (44/60)[Kremote: Compressing objects:  75% (45/60)[Kremote: Compressing objects:  76% (46/60)[Kremote: Compressing objects:  78% (47/60)[Kremote: Compressing objects:  80% (48/60)[Kremote: Compressing objects:  81% (49/60)[Kremote: Compressing objects:  83% (50/60)[Kremote: Compressing objects:  85% (51/60)[Kremote: Compressing objects:  86% (52/60)[Kremote: Compressing objects:  88% (53/60)[Kremote: Compressing objects:  90% (54/60)[Kremote: Compressing objects:  91% (55/60)[Kremote: Compressing objects:  93% (56/60)[Kremote: Compressing objects:  95% (57/60)[Kremote: Compressing objects:  96% (58/60)[Kremote: Compressing objects:  98% (59/60)[Kremote: Compressing objects: 100% (60/60)[Kremote: Compressing objects: 100% (60/60), done.[K
+Receiving objects:   0% (1/716)Receiving objects:   1% (8/716)Receiving objects:   2% (15/716)Receiving objects:   3% (22/716)Receiving objects:   4% (29/716)Receiving objects:   5% (36/716)Receiving objects:   6% (43/716)Receiving objects:   7% (51/716)Receiving objects:   8% (58/716)Receiving objects:   9% (65/716)Receiving objects:  10% (72/716)Receiving objects:  11% (79/716)Receiving objects:  12% (86/716)Receiving objects:  13% (94/716)Receiving objects:  14% (101/716)Receiving objects:  15% (108/716)Receiving objects:  16% (115/716)Receiving objects:  17% (122/716)Receiving objects:  18% (129/716)Receiving objects:  19% (137/716)Receiving objects:  20% (144/716)Receiving objects:  21% (151/716)Receiving objects:  22% (158/716)Receiving objects:  23% (165/716)Receiving objects:  24% (172/716)Receiving objects:  25% (179/716)Receiving objects:  26% (187/716)Receiving objects:  27% (194/716)Receiving objects:  28% (201/716)Receiving objects:  29% (208/716)Receiving objects:  30% (215/716)Receiving objects:  31% (222/716)Receiving objects:  32% (230/716)Receiving objects:  33% (237/716)Receiving objects:  34% (244/716)Receiving objects:  35% (251/716)Receiving objects:  36% (258/716)Receiving objects:  37% (265/716)Receiving objects:  38% (273/716)Receiving objects:  39% (280/716)Receiving objects:  40% (287/716)Receiving objects:  41% (294/716)Receiving objects:  42% (301/716)Receiving objects:  43% (308/716)Receiving objects:  44% (316/716)Receiving objects:  45% (323/716)Receiving objects:  46% (330/716)Receiving objects:  47% (337/716)Receiving objects:  48% (344/716)Receiving objects:  49% (351/716)Receiving objects:  50% (358/716)Receiving objects:  51% (366/716)Receiving objects:  52% (373/716)Receiving objects:  53% (380/716)Receiving objects:  54% (387/716)Receiving objects:  55% (394/716)Receiving objects:  56% (401/716)Receiving objects:  57% (409/716)Receiving objects:  58% (416/716)Receiving objects:  59% (423/716)Receiving objects:  60% (430/716)Receiving objects:  61% (437/716)Receiving objects:  62% (444/716)Receiving objects:  63% (452/716)Receiving objects:  64% (459/716)Receiving objects:  65% (466/716)Receiving objects:  66% (473/716)Receiving objects:  67% (480/716)Receiving objects:  68% (487/716)Receiving objects:  69% (495/716)Receiving objects:  70% (502/716)Receiving objects:  71% (509/716)Receiving objects:  72% (516/716)Receiving objects:  73% (523/716)Receiving objects:  74% (530/716)Receiving objects:  75% (537/716)Receiving objects:  76% (545/716)Receiving objects:  77% (552/716)Receiving objects:  78% (559/716)Receiving objects:  79% (566/716)Receiving objects:  80% (573/716)Receiving objects:  81% (580/716)Receiving objects:  82% (588/716)Receiving objects:  83% (595/716)Receiving objects:  84% (602/716)Receiving objects:  85% (609/716)Receiving objects:  86% (616/716)Receiving objects:  87% (623/716)Receiving objects:  88% (631/716)Receiving objects:  89% (638/716)Receiving objects:  90% (645/716)Receiving objects:  91% (652/716)Receiving objects:  92% (659/716)Receiving objects:  93% (666/716)remote: Total 716 (delta 24), reused 20 (delta 20), pack-reused 636 (from 2)[K
+Receiving objects:  94% (674/716)Receiving objects:  95% (681/716)Receiving objects:  96% (688/716)Receiving objects:  97% (695/716)Receiving objects:  98% (702/716)Receiving objects:  99% (709/716)Receiving objects: 100% (716/716)Receiving objects: 100% (716/716), 361.14 KiB | 783.00 KiB/s, done.
+Resolving deltas:   0% (0/119)Resolving deltas:   1% (2/119)Resolving deltas:   2% (3/119)Resolving deltas:   3% (4/119)Resolving deltas:   4% (5/119)Resolving deltas:   5% (6/119)Resolving deltas:   6% (8/119)Resolving deltas:   7% (9/119)Resolving deltas:   8% (10/119)Resolving deltas:   9% (11/119)Resolving deltas:  10% (13/119)Resolving deltas:  11% (14/119)Resolving deltas:  13% (16/119)Resolving deltas:  14% (17/119)Resolving deltas:  15% (18/119)Resolving deltas:  17% (21/119)Resolving deltas:  18% (22/119)Resolving deltas:  19% (23/119)Resolving deltas:  20% (24/119)Resolving deltas:  21% (25/119)Resolving deltas:  22% (27/119)Resolving deltas:  23% (28/119)Resolving deltas:  24% (29/119)Resolving deltas:  25% (30/119)Resolving deltas:  26% (31/119)Resolving deltas:  27% (33/119)Resolving deltas:  28% (34/119)Resolving deltas:  30% (36/119)Resolving deltas:  31% (37/119)Resolving deltas:  32% (39/119)Resolving deltas:  33% (40/119)Resolving deltas:  34% (41/119)Resolving deltas:  35% (42/119)Resolving deltas:  36% (44/119)Resolving deltas:  37% (45/119)Resolving deltas:  38% (46/119)Resolving deltas:  39% (47/119)Resolving deltas:  40% (48/119)Resolving deltas:  41% (49/119)Resolving deltas:  42% (50/119)Resolving deltas:  43% (52/119)Resolving deltas:  44% (53/119)Resolving deltas:  46% (55/119)Resolving deltas:  47% (56/119)Resolving deltas:  48% (58/119)Resolving deltas:  49% (59/119)Resolving deltas:  50% (60/119)Resolving deltas:  51% (61/119)Resolving deltas:  52% (62/119)Resolving deltas:  53% (64/119)Resolving deltas:  54% (65/119)Resolving deltas:  55% (66/119)Resolving deltas:  56% (67/119)Resolving deltas:  57% (68/119)Resolving deltas:  58% (70/119)Resolving deltas:  59% (71/119)Resolving deltas:  61% (73/119)Resolving deltas:  63% (75/119)Resolving deltas:  64% (77/119)Resolving deltas:  65% (78/119)Resolving deltas:  66% (79/119)Resolving deltas:  68% (81/119)Resolving deltas:  69% (83/119)Resolving deltas:  71% (85/119)Resolving deltas:  72% (86/119)Resolving deltas:  73% (87/119)Resolving deltas:  74% (89/119)Resolving deltas:  76% (91/119)Resolving deltas:  77% (92/119)Resolving deltas:  78% (93/119)Resolving deltas:  79% (95/119)Resolving deltas:  80% (96/119)Resolving deltas:  82% (98/119)Resolving deltas:  83% (99/119)Resolving deltas:  84% (101/119)Resolving deltas:  85% (102/119)Resolving deltas:  87% (104/119)Resolving deltas:  88% (105/119)Resolving deltas:  89% (106/119)Resolving deltas:  91% (109/119)Resolving deltas:  93% (111/119)Resolving deltas:  94% (112/119)Resolving deltas:  95% (114/119)Resolving deltas:  96% (115/119)Resolving deltas:  97% (116/119)Resolving deltas:  98% (117/119)Resolving deltas:  99% (118/119)Resolving deltas: 100% (119/119)Resolving deltas: 100% (119/119), done.
+[?2004h]0;devcontainers@PcdeRe28: ~/dev/rass/Pint-OS[01;32mdevcontainers@PcdeRe28[00m:[01;34m~/dev/rass/Pint-OS[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged f
