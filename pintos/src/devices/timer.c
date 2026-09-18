@@ -88,12 +88,18 @@ timer_elapsed (int64_t then)
    be turned on. */
 void
 timer_sleep (int64_t ticks) 
-{
+{ 
+  static struct thread *idle_thread;
   int64_t start = timer_ticks ();
-
   ASSERT (intr_get_level () == INTR_ON);
-  while (timer_elapsed (start) < ticks) 
-    thread_yield ();
+  while (timer_elapsed (start) < ticks){
+     
+    if(thread_current()!=idle_thread){
+     printf("\nStart: %jd\n",start); thread_yield ();
+    }
+    printf("só para teste");
+  }
+    
 }
 
 /* Sleeps for approximately MS milliseconds.  Interrupts must be
