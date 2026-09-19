@@ -19,7 +19,9 @@
 
 /* Number of timer ticks since OS booted. */
 static int64_t ticks;
-
+/*List of blocked processes. Processes are threated by semaphore,
+  avoiding the busy wait */
+static struct list sleep_list;
 /* Number of loops per timer tick.
    Initialized by timer_calibrate(). */
 static unsigned loops_per_tick;
@@ -35,6 +37,8 @@ static void real_time_delay (int64_t num, int32_t denom);
 void
 timer_init (void) 
 {
+  list_init(&sleep_list);
+ 
   pit_configure_channel (0, 2, TIMER_FREQ);
   intr_register_ext (0x20, timer_interrupt, "8254 Timer");
 }
@@ -89,14 +93,19 @@ timer_elapsed (int64_t then)
 void
 timer_sleep (int64_t ticks) 
 { 
-   
+   if (ticks <=0)
+      return;
   struct thread *cur_thread = thread_current();
+  
   int64_t start = timer_ticks ();
   int64_t final = start+ticks;
   ASSERT (intr_get_level () == INTR_ON);
+  enum intr_level old_level = intr_disable();
   cur_thread->wakeup=final;
- 
+  list_push_back(&sleep_list,&cur_thread->sleepelem);
+  intr_set_level(old_level);
   sema_down(&cur_thread->sema);
+  
 }
 /* Sleeps for approximately MS milliseconds.  Interrupts must be
    turned on. */
@@ -173,18 +182,22 @@ static void
 timer_interrupt (struct intr_frame *args UNUSED)
 {
   ticks++;
-
-  thread_tick ();
-  struct list_elem *x;
-
-  struct thread *atual = thread_current();
   
-
-    if(ticks>=atual->wakeup){  
-      sema_up(&atual->sema);
+  thread_tick ();
+  struct list_elem *x=list_begin(&sleep_list);
+  struct list_elem *backup=x;
+  while(x != list_end(&sleep_list)){
+    struct thread *t = list_entry(x, struct thread, sleepelem);
+    if(ticks>=t->wakeup){
+      printf("[%s] ACORDOU NO TICK %"PRId64"\n", t->name, ticks);
+      backup=list_remove(x);
+      sema_up(&t->sema);
+      x=backup;
+    }else{
+      x=list_next(x);
     }
   }
-
+}
 
 /* Returns true if LOOPS iterations waits for more than one timer
    tick, otherwise false. */
