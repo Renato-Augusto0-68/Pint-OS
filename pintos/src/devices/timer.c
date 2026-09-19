@@ -25,7 +25,7 @@ static struct list sleep_list;
 /* Number of loops per timer tick.
    Initialized by timer_calibrate(). */
 static unsigned loops_per_tick;
-
+static struct semaphore *sema;
 static intr_handler_func timer_interrupt;
 static bool too_many_loops (unsigned loops);
 static void busy_wait (int64_t loops);
@@ -38,7 +38,7 @@ void
 timer_init (void) 
 {
   list_init(&sleep_list);
- 
+  sema_init(&sema,0);
   pit_configure_channel (0, 2, TIMER_FREQ);
   intr_register_ext (0x20, timer_interrupt, "8254 Timer");
 }
@@ -96,15 +96,16 @@ timer_sleep (int64_t ticks)
    if (ticks <=0)
       return;
   struct thread *cur_thread = thread_current();
-  
+  ASSERT (intr_get_level () == INTR_ON);
   int64_t start = timer_ticks ();
   int64_t final = start+ticks;
-  ASSERT (intr_get_level () == INTR_ON);
+  
   enum intr_level old_level = intr_disable();
   cur_thread->wakeup=final;
   list_push_back(&sleep_list,&cur_thread->sleepelem);
+  thread_block();
   intr_set_level(old_level);
-  sema_down(&cur_thread->sema);
+  
   
 }
 /* Sleeps for approximately MS milliseconds.  Interrupts must be
@@ -189,9 +190,8 @@ timer_interrupt (struct intr_frame *args UNUSED)
   while(x != list_end(&sleep_list)){
     struct thread *t = list_entry(x, struct thread, sleepelem);
     if(ticks>=t->wakeup){
-      printf("[%s] ACORDOU NO TICK %"PRId64"\n", t->name, ticks);
       backup=list_remove(x);
-      sema_up(&t->sema);
+      thread_unblock(t);
       x=backup;
     }else{
       x=list_next(x);
